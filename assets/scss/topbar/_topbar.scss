@@ -2,13 +2,13 @@
 
 ===============
 
-    navbar
+    topbar
 
 ===============
 
 */
 
-.navbar{
+.topbar{
     background-color: $gray-light-color;
 
     &-right__list{
@@ -25,7 +25,7 @@
         border-radius: .5rem;
     }
 
-    .navbar-left__icon{
+    .topbar-left__icon{
         color: $primary;
     }
 

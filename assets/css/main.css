@@ -15525,16 +15525,16 @@ textarea.form-control-lg {
 
 ===============
 
-    navbar
+    topbar
 
 ===============
 
 */
-.navbar {
+.topbar {
   background-color: #f0f2f7; }
-  .navbar-right__list {
+  .topbar-right__list {
     margin-top: 1.2rem; }
-  .navbar .bi-telephone {
+  .topbar .bi-telephone {
     border: 0.1rem solid #2bce56;
     width: 2.5rem;
     height: 2.5rem;
@@ -15542,9 +15542,9 @@ textarea.form-control-lg {
     justify-content: center;
     align-items: center;
     border-radius: .5rem; }
-  .navbar .navbar-left__icon {
+  .topbar .topbar-left__icon {
     color: #2bce56; }
-  .navbar .bi-envelope {
+  .topbar .bi-envelope {
     font-size: 4rem;
     margin-top: .5rem; }
 
