@@ -1,0 +1,48 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary : red ;
+
+/*
+
+====================
+
+    Default Style
+    
+====================
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+*,
+*::before,
+*::after {
+  outline: none;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  // color: ;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+i {
+  user-select: none;
+}
+
+li{
+  list-style-type: none;
+}
