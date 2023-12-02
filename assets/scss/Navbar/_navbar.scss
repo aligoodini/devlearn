@@ -1,0 +1,36 @@
+/*
+
+===============
+
+    navbar
+
+===============
+
+*/
+
+.navbar{
+    background-color: $gray-light-color;
+
+    &-right__list{
+        margin-top: 1.2rem;
+    }
+
+    .bi-telephone{
+        border: .1rem solid $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+    }
+
+    .navbar-left__icon{
+        color: $primary;
+    }
+
+    .bi-envelope{
+        font-size: 4rem;
+        margin-top: .5rem;
+    }
+}
