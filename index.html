@@ -5,56 +5,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
   </head>
   <body>
     <!-- header -->
 
     <header>
+      <!-- topbar -->
 
-        <!-- topbar -->
-  
-        <nav class="topbar">
-          <div class="container-fluid d-flex justify-content-between align-items-center">
-            <div class="topbar-right">
-              <ul class="topbar-right__list d-flex justify-content-between">
-                <li class="topbar-right__item pe-5">
-                  <a href="" class="topbar-right__link">آموزش Html</a>
-                </li>
-                <li class="topbar-right__item pe-5">
-                  <a href="" class="topbar-right__link">آموزش Css</a>
-                </li>
-                <li class="topbar-right__item pe-5">
-                  <a href="" class="topbar-right__link">آموزش JavaScript</a>
-                </li>
-                <li class="topbar-right__item pe-5">
-                  <a href="" class="topbar-right__link">آموزش BootStrap</a>
-                </li>
-                <li class="topbar-right__item pe-5">
-                  <a href="" class="topbar-right__link">آموزش Python</a>
-                </li>
-                <li class="topbar-right__item">
-                  <a href="" class="topbar-right__link pe-5">آموزش React</a>
-                </li>
-              </ul>
+      <div class="topbar">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center"
+        >
+          <div class="topbar-right">
+            <ul class="topbar-right__list d-flex justify-content-between">
+              <li class="topbar-right__item pe-5">
+                <a href="" class="topbar-right__link">آموزش Html</a>
+              </li>
+              <li class="topbar-right__item pe-5">
+                <a href="" class="topbar-right__link">آموزش Css</a>
+              </li>
+              <li class="topbar-right__item pe-5">
+                <a href="" class="topbar-right__link">آموزش JavaScript</a>
+              </li>
+              <li class="topbar-right__item pe-5">
+                <a href="" class="topbar-right__link">آموزش BootStrap</a>
+              </li>
+              <li class="topbar-right__item pe-5">
+                <a href="" class="topbar-right__link">آموزش Python</a>
+              </li>
+              <li class="topbar-right__item">
+                <a href="" class="topbar-right__link pe-5">آموزش React</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="topbar-left d-flex justify-content-between align-items-center"
+          >
+            <div
+              class="navbar-left-number d-flex justify-content-between align-items-center pe-5"
+            >
+              <a href="#" class="navbar-left-number__link pe-3">09999125499</a>
+              <i class="bi bi-telephone navbar-left__icon me-2 ms-3"></i>
             </div>
-            <div class="topbar-left d-flex justify-content-between align-items-center">
-              <div
-                class="navbar-left-number d-flex justify-content-between align-items-center pe-5"
+            <div
+              class="navbar-left-gmail d-flex justify-content-between align-items-center"
+            >
+              <a href="#" class="navbar-left-gmail__link pe-3">
+                devLearn@gmail.com</a
               >
-                <a href="#" class="navbar-left-number__link pe-3">09999125499</a>
-                <i class="bi bi-telephone navbar-left__icon"></i>
+              <i class="bi bi-envelope navbar-left__icon me-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- navbar -->
+      <nav class="navbar">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="navbar-right d-flex justify-content-between align-items-center"
+          >
+            <a href="#" class="logo ms-4">
+              <img src="assets/images/logo/Udemy_logo_prev_ui.png" alt="logo" />
+            </a>
+            <ul
+              class="navbar-right_list d-flex justify-content-between align-items-center"
+            >
+              <li class="navbar-right__item ms-5">
+                فرانت اند
+                <i class="bi bi-caret-down"></i>
+                <ul class="navbar-right-drop-down">
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش Html</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش Css</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link">آموزش JS</a>
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش Css Grid</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-right__item ms-5">
+                امنیت
+                <i class="bi bi-caret-down"></i>
+                <ul class="navbar-right-drop-down">
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش لینوکس</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش پاییتون سیاه</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش جاوااسکریپت سیاه</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-right__item ms-5">
+                پایتون
+                <i class="bi bi-caret-down"></i>
+                <ul class="navbar-right-drop-down">
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >آموزش پایتون</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >پروژه های کاربردی پایتون</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >متخصص جنگو</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >ترفند های پایتون</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-right__item ms-5">
+                <a href="#" class="navbar-right__link"> مهارت نرم </a>
+              </li>
+              <li class="navbar-right__item ms-5">
+                مقالات
+                <i class="bi bi-caret-down"></i>
+                <ul class="navbar-right-drop-down">
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >طراحی سایت</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >نقشه راه فرانت اند</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >نقشه راه بک اند</a
+                    >
+                  </li>
+                  <li class="navbar-right-drop-down__item">
+                    <a href="" class="navbar-right-drop-down__link"
+                      >تست نفوز و امنیت</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="navbar-left d-flex justify-content-between align-items-center">
+            <div class="navbar-left__search search">
+              <i class="bi bi-search search-icon-nav"></i>
+            </div>
+            <div class="navbar-left__shop me-4">
+              <i class="bi bi-bag"></i>
+            </div>
+            <div class="navbar-left__user me-4">
+              <i class="bi bi-person"></i>
+              علی گودینی
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- main -->
+      <main>
+        
+        <!-- landing-main -->
+        <section class="landing-main">
+          <div
+            class="container d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1 class="landing-main__first-title">
+              ما به هر قیمتی دوره آموزشی تولید نمی کنیم !
+            </h1>
+            <h2 class="landing-main__second-title">
+              با آکادمی سبزلرن ، برنامه نویسی رو با خیال راحت یادبگیر و پیشرفت
+              کن
+            </h2>
+            <div class="landing-main-input-group">
+              <input
+                type="text"
+                class="landing-main-input-group__input"
+                placeholder="چی دوست داری یاد بگیری"
+              />
+              <div class="landing-main-input-group-btn">
+                <button class="landing-main-input-group__button">
+                  <div class="search">
+                    <i class="bi bi-search search-icon-nav ms-3"></i>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div
+              class="row d-flex justify-content-between align-items-center w-100 mt-5"
+            >
+              <div
+                class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-person-rolodex landing-main__icon"></i>
+                <span class="landing-main__num">31071</span>
+                <span class="landing-main__caption"
+                  >کاربر در سبزلرن ثبت نام کردند</span
+                >
               </div>
               <div
-                class="navbar-left-gmail d-flex justify-content-between align-items-center"
+                class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center"
               >
-                <a href="#" class="navbar-left-gmail__link pe-3">
-                  devLearn@gmail.com</a>
-                <i class="bi bi-envelope navbar-left__icon"></i>
+                <i class="bi bi-book landing-main__icon"></i>
+                <span class="landing-main__num">40</span>
+                <span class="landing-main__caption">دوره آموزشی داریم</span>
+              </div>
+              <div
+                class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-stopwatch landing-main__icon"></i>
+                <span class="landing-main__num">31320</span>
+                <span class="landing-main__caption"
+                  >دقیقه آموزش تولید کردیم</span
+                >
               </div>
             </div>
           </div>
-        </nav>
-  
-      </header>
+        </section>
+
+      </main>
+    </header>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

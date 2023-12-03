@@ -1,10 +1,11 @@
 @import "./reset";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+// @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+// @import "../vendor/bootstrap-icon/bootstrapIcon.scss";
 @import "./variables";
 @import "./fonts";
 @import "./topbar/topbar";
-@import "./topHeader/top-header";
+@import "./navbar/navbar";
 
 /*
 
@@ -49,4 +50,87 @@ i {
 
 li{
   list-style-type: none;
+}
+
+
+.logo{
+  display: block;
+  img{
+    width: 80px;
+    height: 40px;
+  }
+  margin-top: -1rem;
+}
+
+
+/*
+
+===============
+
+    landing-main
+
+===============
+
+*/
+
+.landing-main{
+  margin-top: 2rem;
+  background : linear-gradient(rgba(60, 57, 57, 0.6),rgba(0,0 ,0 , 0.6)) , url("../images/coding-7-1920.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55rem;
+  text-align: center;
+  color: $light;
+
+  &__first-title{
+    padding-top: 5rem;
+    font-size: 4rem;
+    font-weight: $font-weight;
+  }
+
+  &__second-title{
+    padding-top: 2rem;
+  }
+
+  &-input-group{
+    margin-top: 3rem;
+    background-color: $light;
+    width: 40%;
+    height: 5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-input-group__input{
+    border: none;
+    padding-right: 1.5rem;
+  }
+
+  &-input-group__button{
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: $light;
+  }
+
+  &__icon{
+    font-size: 6rem;
+  }
+
+  &__num{
+    font-size: 3rem;
+    font-weight: $font-weight;
+  }
+
+  &__caption{
+    font-size: 2rem;
+    font-weight: $font-weight;
+  }
+
+  .bi-search{
+    color: $primary;
+  }
 }
