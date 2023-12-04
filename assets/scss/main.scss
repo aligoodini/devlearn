@@ -191,3 +191,42 @@ li{
       }
    }
 }
+
+/*
+
+===============
+
+    popular-products
+    preSale-products
+
+===============
+
+*/
+
+.popular-products , .preSale-products{
+  margin-bottom: 10rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 35rem; */
+  width: 100%;
+  height:21rem ;
+  border-radius: var(--border-radius-1);
+}
+
+.swiper-slide-next img{
+  width: 40rem;
+  height:25rem ; 
+}
