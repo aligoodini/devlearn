@@ -1,0 +1,47 @@
+
+/* products-main */
+
+.products-main{
+    margin-top: 2rem;
+    &-box{
+        box-shadow: $box-shadow;
+        color: $dark;
+        padding: 0 2rem .5rem 2rem;
+        transition: $transition;
+        border-radius: $border-radius-1;
+        &_img-link{
+            margin: 0 -2rem -2rem -2rem;
+        }
+        &__img{
+            width: 100%;
+            border-radius: $border-radius-1 1rem 0 ;
+        }
+        &__title{
+            margin-top: 4rem;
+            font-size: 1.8rem;
+            font-weight: $font-weight;
+        }
+        &-author-star{
+            margin-top: 1.5rem;
+            font-weight: $font-weight;
+        }
+        &-user-price{
+            margin-top: 1rem;
+            font-weight: $font-weight;
+        }
+        &-footer{
+            border-top: 1px solid $gray-light-color;
+            margin: 1.5rem -2rem 0 -2rem;
+            padding-top: .5rem;
+            &__link{
+                color: $primary;
+                font-weight: $font-weight;
+            }
+        }
+    }
+    &-box:hover{
+        transform: translateY(-.5rem);
+    }
+}
+
+

@@ -1,0 +1,9 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    margin-left: 1rem;
+}

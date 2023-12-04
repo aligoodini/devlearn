@@ -4,8 +4,11 @@
 // @import "../vendor/bootstrap-icon/bootstrapIcon.scss";
 @import "./variables";
 @import "./fonts";
+@import "./Search/Search";
 @import "./topbar/topbar";
 @import "./navbar/navbar";
+@import "./products/products";
+@import "./product-nav/product-nav";
 
 /*
 
@@ -133,4 +136,58 @@ li{
   .bi-search{
     color: $primary;
   }
+}
+
+
+/*
+
+===============
+
+    products
+
+===============
+
+*/
+
+.products{
+  margin : 10rem 0 ; 
+}
+
+
+/*
+
+===============
+
+   help
+
+===============
+
+*/
+.help{
+   margin: 10rem 0;
+
+   &-box{
+      box-shadow: $box-shadow;
+      border-radius: $border-radius-1;
+      &-right{
+      
+      }
+      .bi-c-circle,
+      .bi-flower2,
+      .bi-gem,
+      .bi-lightning-fill{
+         font-size: 7rem;
+      }
+      &-left{
+         margin-left: 2rem;
+         &__title{
+            font-size: 2.5rem;
+            font-weight: $font-weight;
+         }
+         &__subtitle{
+            font-weight: $font-weight;
+            color: $gray-color;
+         }
+      }
+   }
 }
