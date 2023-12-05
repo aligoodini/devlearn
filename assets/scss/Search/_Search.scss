@@ -4,6 +4,7 @@
     align-items: center;
     border-radius: .5rem;
     cursor: pointer;
-    background-color: var(--primary-color);
+    // background-color: $primary;
+    color: $primary;
     margin-left: 1rem;
 }

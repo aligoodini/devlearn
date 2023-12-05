@@ -1,0 +1,77 @@
+/*
+
+===============
+
+    footer
+
+===============
+
+*/
+
+.footer-main{
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+    &-row{
+        box-shadow: $box-shadow;
+        background-color: $gray-light-color;
+        border-radius: $border-radius-1;
+        padding: 4rem 4rem;
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: "";
+            width: 50rem;
+            height: 5rem;
+            background-color: $primary;
+            border-radius: 0 0 2rem 2rem;
+            z-index: -1;
+            right: 30.5%;
+        }
+    }
+    &__title{
+        display: block;
+        font-weight: $font-weight;
+        margin-bottom: 1.5rem;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 1rem;
+            background-color: $primary;
+            opacity: .3;
+            transform: rotate(45deg);
+            right: .75rem;
+            top: -.5rem;
+        }
+    }
+    &__text{
+        text-align: justify;
+        text-justify: inter-word;
+        color: $dark;
+    }
+    
+    a.footer-main__text{
+        display: block;
+        cursor: pointer;
+        margin-bottom: 1.5rem;
+        color: #000;
+        &:hover{
+            color: $secondary;
+        }
+    }
+    
+}
+.footer-copyRight{
+    background-color: $gray-light-color;
+    text-align: center;
+    height: 6rem;
+    padding-top: 1.5rem;
+    font-weight: $font-weight;
+    &__text{
+        color: $primary;
+        font-size: 2rem;
+    }
+}
