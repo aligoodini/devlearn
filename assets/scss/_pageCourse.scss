@@ -82,26 +82,26 @@
 
 .main-progress{
     margin-top: 5rem;
-    background-color: var(--gray-light-color);
-    border-radius: var(--border-radius-1);
+    background-color: $gray-light-color;
+    border-radius: $border-radius-1;
     padding: 2rem;
-}
-.main-progress-top{
-
-}
-.main-progress__icon{
-    font-size: 2rem;
-    color: var(--gray-color);
-}
-.main-progress__title{
-    margin-right: 1.5rem;
-    font-weight: var(--font-weight);
-}
-.progress{
-    margin-top: 1rem;
-}
-.progress-bar{
-    background-color: var(--primary-color);
+    &-top{
+    
+    }
+    &__icon{
+        font-size: 2rem;
+        color: $gray-color;
+    }
+    &__title{
+        margin-right: 1.5rem;
+        font-weight: $font-weight;
+    }
+    .progress{
+        margin-top: 1rem;
+        &-bar{
+            background-color: $primary;
+        }
+    }
 }
 
 /*
