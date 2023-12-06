@@ -1,0 +1,32 @@
+/*
+
+===============
+
+    Breadcrumb
+
+===============
+
+*/
+
+.breadcrumb-section{
+    margin-top: 5rem;
+}
+.breadcrumb{
+    background-color: $gray-light-color;
+    padding: 2rem;
+    border-radius: $border-radius-1;
+    &__icon{
+        font-size: 3rem;
+        background-color: $light;
+        padding: .25rem .75rem 0rem;
+        border-radius: $border-radius-1;
+        color: $gray-color;
+        margin-left: 2rem;
+    }
+    &-item , &-link {
+        font-size: 1.8rem;
+    }
+    &-link{
+        font-weight: $font-weight;
+    }
+}

@@ -1,0 +1,35 @@
+/*
+
+===============
+
+    Pagination
+
+===============
+
+*/
+
+.pag-section{
+    margin-top: 10rem;
+    .pagination{
+    
+    }
+    .page-item{
+        
+    }
+    .page-link{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        font-weight: $font-weight;
+        &:hover{
+            background-color: $primary;
+            color: $light;
+        }
+        &--active{
+            background-color: $primary;
+            color: $light;
+        }
+    }
+    &-arrow{
+        font-size: 2rem;
+    }
+}

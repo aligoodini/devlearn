@@ -2,26 +2,26 @@
 
 .products-nav-right{
     position: relative;
-}
-.products-nav-right::before{
-    position: absolute;
-    content: "";
-    width: .5rem;
-    height: 6.5rem;
-    right: -2rem;
-    top: 1rem;
-    border-radius: .5rem;
-    transform: rotate(8deg);
-    background-color: $primary;
-}
-.products-nav-right__first-text{
-    font-size: 3rem;
-    font-weight: 800;
-}
-.products-nav-right__second-text{
-    font-size: 2rem;
-    font-weight: 600;
-    color: $gray-color;
+    &::before{
+        position: absolute;
+        content: "";
+        width: .5rem;
+        height: 6.5rem;
+        right: -2rem;
+        top: 1rem;
+        border-radius: .5rem;
+        transform: rotate(8deg);
+        background-color: $primary;
+    }
+    &__first-text{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    &__second-text{
+        font-size: 2rem;
+        font-weight: 600;
+        color: $gray-color;
+    }
 }
 
 .products-nav-left{

@@ -1,0 +1,105 @@
+/*
+
+===============
+
+    courses
+
+===============
+
+*/
+.courses{
+    margin-top: 5rem;
+    /* courses top */
+    &-top{
+        box-shadow: $box-shadow;
+        padding: 2rem 2rem;
+        border-radius: $border-radius-1;
+    }
+    &-top-right{
+        
+    }
+    &-top-right-filter-box__right,
+    &-top-right-filter-box__midle,
+    &-top-right-filter-box__left{
+        padding: .55rem .75rem .25rem .75rem;
+        border: .1rem solid $primary;
+        border-radius: .35rem; 
+        
+        .bi-microsoft{
+            color: $light;
+        }
+        .bi-text-left{
+           
+        }
+    }
+    .courses-top-right-filter-box__right{
+        background-color: $primary;
+    }
+    .courses-top-right-filter-box__midle{
+
+    }
+    .courses-top-right-filter-box__left{
+        position: relative;
+        font-weight: bold;
+        color: $dark;
+        background-color: $primary;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        &-title{
+            color: $light;
+        }
+    }
+}
+
+.bi-chevron-compact-down{
+    color: $light;
+}
+.courses-top-right__list{
+    position: absolute;
+    top: 3.25rem;
+    right: 0;
+    width: 100%;
+    border: .1rem solid $primary;
+    border: .1rem solid $gray-color;
+    border-radius: .35rem; 
+    padding-right: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom: .35rem solid $primary;
+    background-color: $light;
+}
+.courses-top-right-filter-box__left:hover .courses-top-right__list{
+    opacity: 1;
+    visibility: visible;
+}
+
+.courses-top-right__list--active{
+    // background-color: $gray-light-color;
+}
+.courses-top-right__item{
+    width: 112%;
+    font-size: 1.25rem;
+    padding: 0 1rem .5rem 1rem;
+    cursor: pointer;
+    padding-bottom: .7rem;
+    &:hover{
+        background-color: $gray-light-color;
+    }
+}
+.courses-top-left{
+
+    &__form{
+        border: .1rem solid $primary;
+        border-radius: .5rem;
+        padding: .5rem;
+    }
+    &__input{
+        border: none;
+    }
+}
+.search-icon-topHeader{
+    margin-left: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    color: $primary;
+}
