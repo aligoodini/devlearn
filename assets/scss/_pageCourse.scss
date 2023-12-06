@@ -46,29 +46,29 @@
 
 .main{
     margin-top: 10rem;
+    &-box{
+        box-shadow: $box-shadow;
+        padding: .5rem 2rem .5rem 0;
+        border-radius: $border-radius-1;
+        &-right{
+        
+        }
+        &__icon{
+            font-size: 4rem;
+            color: $primary;
+        }
+        &-left{
+            margin-right: 1.5rem;
+        }
+        &__title{
+            font-size: 1.9rem;
+        }
+        &__subtitle{
+        
+        }
+    }
 }
 
-.main-box{
-    box-shadow: var(--box-shadow);
-    padding: .5rem 2rem .5rem 0;
-    border-radius: var(--border-radius-1);
-}
-.main-box-right{
-
-}
-.main-box__icon{
-    font-size: 4rem;
-    color: var(--primary-color);
-}
-.main-box-left{
-    margin-right: 1.5rem;
-}
-.main-box__title{
-    font-size: 1.9rem;
-}
-.main-box__subtitle{
-
-}
 
 /*
 
