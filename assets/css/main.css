@@ -9395,6 +9395,7 @@ textarea.form-control-lg {
 .navbar {
   /* right side */
   margin-top: 2rem;
+  z-index: 99;
   /* left side */ }
   .navbar-right__item {
     position: relative;
