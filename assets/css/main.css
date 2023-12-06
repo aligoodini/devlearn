@@ -9814,34 +9814,6 @@ li {
 
 ===============
 
-    Breadcrumb
-
-===============
-
-*/
-.breadcrumb-section {
-  margin-top: 5rem; }
-
-.breadcrumb {
-  background-color: #f0f2f7;
-  padding: 2rem;
-  border-radius: 1rem; }
-  .breadcrumb__icon {
-    font-size: 3rem;
-    background-color: #fff;
-    padding: .25rem .75rem 0rem;
-    border-radius: 1rem;
-    color: #7f8187;
-    margin-left: 2rem; }
-  .breadcrumb-item, .breadcrumb-link {
-    font-size: 1.8rem; }
-  .breadcrumb-link {
-    font-weight: bold; }
-
-/*
-
-===============
-
     Pagination
 
 ===============
@@ -9976,3 +9948,40 @@ li {
   margin-top: .5rem;
   cursor: pointer;
   color: #a136ed; }
+
+/*
+
+====================
+
+    pageCourse.html
+    
+====================
+
+*/
+/*
+
+===============
+
+    Breadcrumb
+
+===============
+
+*/
+.breadcrumb-section {
+  margin-top: 5rem; }
+
+.breadcrumb {
+  background-color: #f0f2f7;
+  padding: 2rem;
+  border-radius: 1rem; }
+  .breadcrumb__icon {
+    font-size: 3rem;
+    background-color: #fff;
+    padding: .25rem .75rem 0rem;
+    border-radius: 1rem;
+    color: #a136ed;
+    margin-left: 2rem; }
+  .breadcrumb-item, .breadcrumb-link {
+    font-size: 1.8rem; }
+  .breadcrumb-link {
+    font-weight: bold; }
