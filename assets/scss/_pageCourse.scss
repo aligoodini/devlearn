@@ -115,53 +115,53 @@
 */
 
 .main-introduction{
-    box-shadow: var(--box-shadow);
-    border-radius: var(--border-radius-1);
+    box-shadow: $box-shadow;
+    border-radius: $border-radius-1;
     margin-top: 5rem;
     padding: 4rem;
-}
-.introduction-item{
-
-}
-.introduction-item_title{
-    font-weight: var(--font-weight);
-    position: relative;
-}
-.introduction-item_title::before{
-    position: absolute;
-    content: "";
-    width: .4rem;
-    height: 4rem;
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius-1);
-    right: -1rem;
-    top: -.5rem;
-    transform: rotate(8deg);
-}
-.introduction-item__img{
-    margin-top: 3rem;
-    width: 100%;
-    border-radius: var(--border-radius-1);
-}
-.introduction-item__text{
-    margin-top: 1rem;
-    text-align: justify;
-    text-justify: inter-word;
-}
-.introduction-btns{
-    margin-top: 3rem;
-}
-.introduction-btn{
-    color: var(--primary-color);
-    border: .2rem solid var(--primary-color);
-    border-radius: .5rem;
-    padding: 1rem;
-    font-weight: var(--font-weight);
-}
-.introduction-btn:hover{
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border: .2rem solid var(--white-color);
+    .introduction-item{
+    
+        &_title{
+            font-weight: $font-weight;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: "";
+                width: .4rem;
+                height: 4rem;
+                background-color: $primary;
+                border-radius: $border-radius-1;
+                right: -1rem;
+                top: -.5rem;
+                transform: rotate(8deg);
+            }
+        }
+        &__img{
+            margin-top: 3rem;
+            width: 100%;
+            border-radius: $border-radius-1;
+        }
+        .introduction-item__text{
+            margin-top: 1rem;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    }
+    .introduction-btns{
+        margin-top: 3rem;
+    }
+    .introduction-btn{
+        color: $primary;
+        border: .2rem solid $primary;
+        border-radius: .5rem;
+        padding: 1rem;
+        font-weight: $font-weight;
+        &:hover{
+            color: $light;
+            background-color: $primary;
+            border: .2rem solid $light;
+        }
+    }
 }
 
 /*
