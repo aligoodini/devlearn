@@ -9363,7 +9363,8 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   font-family: "IRANSans";
-  direction: rtl; }
+  direction: rtl;
+  overflow-x: hidden; }
 
 *,
 *::before,
@@ -10530,3 +10531,124 @@ i {
     transition: all 400ms; }
     .comment .comment-btn:hover {
       transform: scale(1.1); }
+
+/* 
+=========================
+
+    login.html
+
+=========================    
+*/
+/*
+
+===============
+
+    login
+
+===============
+
+*/
+.login {
+  margin-top: 10rem;
+  position: relative; }
+  .login::before {
+    z-index: -1;
+    position: absolute;
+    top: -3rem;
+    content: "";
+    width: 182rem;
+    height: 27rem;
+    background-color: #a136ed;
+    clip-path: polygon(5% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 50%);
+    transform: rotate(-2deg) translateX(10rem);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.12); }
+  .login::after {
+    z-index: -2;
+    position: absolute;
+    top: 5rem;
+    content: "";
+    width: 182rem;
+    height: 27rem;
+    background-color: #6f3f6f;
+    clip-path: polygon(10% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 50%);
+    transform: rotate(-2deg) translateX(10rem);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.12); }
+  .login-box {
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.12);
+    padding: 3rem;
+    border-radius: 1rem; }
+    .login-box__title {
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2rem; }
+    .login-box__subtitle {
+      display: block;
+      text-align: center;
+      margin-top: .5rem;
+      color: #464749; }
+    .login-box-enter {
+      margin-bottom: 2rem;
+      text-align: center;
+      background-color: #f0f2f7;
+      margin-top: 1rem;
+      padding: 2rem;
+      border-radius: 0.5rem; }
+      .login-box-enter__text {
+        font-weight: bold;
+        margin-left: .5rem; }
+      .login-box-enter__link {
+        background-color: #7f8187;
+        color: #fff;
+        font-weight: bold;
+        padding: .5rem .75rem;
+        border-radius: 0.5rem;
+        transition: all 400ms; }
+        .login-box-enter__link:hover {
+          color: #fff;
+          font-size: 1.8rem; }
+    .login-box-form-input-box {
+      margin-top: 1rem;
+      border: 0.1rem solid #7f8187;
+      padding: .75rem;
+      border-radius: 0.5rem; }
+      .login-box-form-input-box__input {
+        border: none; }
+        .login-box-form-input-box__input::placeholder {
+          font-weight: bold; }
+      .login-box-form-input-box__icon {
+        color: var(--gray-color);
+        font-size: 2rem; }
+    .login-box-form__btn {
+      margin: 1rem 0;
+      padding: 1rem;
+      background-color: #a136ed;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.8rem;
+      border: none;
+      outline: none;
+      border-radius: 0.5rem;
+      width: 100%;
+      transition: all 400ms; }
+      .login-box-form__btn-icon {
+        align-self: flex-start;
+        margin-left: 42%;
+        font-size: 2rem; }
+    .login-box-list {
+      padding: 0 3rem;
+      list-style-type: disc; }
+
+.pass-login-box-form-pass-setting {
+  font-weight: bold; }
+
+.form-check-label {
+  color: #464749; }
+
+.login-box__tips-title {
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  font-weight: bold; }
