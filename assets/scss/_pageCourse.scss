@@ -176,37 +176,52 @@
 
 .accordion{
     margin-top: 5rem;
-}
-.accordion-item{
+    &-item{
+    
+    }
+    &-header{
+    }
+    &-button{
+        font-size: 1.8rem;
+        font-weight: $font-weight;
+        color: $dark;
+        position: relative;
 
-}
-.accordion-header{
-}
-.accordion-button{
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--dark-color);
-}
-.accordion-body__num{
-    font-size: 2rem;
-    font-weight: var(--font-weight);
-    color: var(--dark-color);
-    border: .2rem solid var(--dark-color);
-    border-radius: 50%;
-    padding: .5rem 1rem .1rem;
-}
-.accordion-icon{
-    font-size: 2.5rem;
-    margin-right: 1.5rem;
-}
-.accordion-body__text{
-    margin-right: 2rem;
-    font-weight: var(--font-weight);
-    cursor: pointer;
-}
-.accordion-body-left{
-    font-weight: var(--font-weight);
-    color: var(--dark-color);
+        &::after{
+            position: absolute;
+            left: 1rem;
+        }
+
+        &.collapsed{
+            position: relative;
+            &::after{
+                position: absolute;
+                left: 1rem;
+            }
+        }
+
+    }
+    &-body__num{
+        font-size: 2rem;
+        font-weight: $font-weight;
+        color: $dark;
+        border: .2rem solid $dark;
+        border-radius: 50%;
+        padding: .5rem 1rem .1rem;
+    }
+    &-icon{
+        font-size: 2.5rem;
+        margin: 0 1.5rem;
+    }
+    &__text{
+        margin-right: 2rem;
+        font-weight: $font-weight;
+        cursor: pointer;
+    }
+    &-left{
+        font-weight: $font-weight;
+        color: $dark;
+    }
 }
 
 
