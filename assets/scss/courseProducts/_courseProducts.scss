@@ -1,0 +1,52 @@
+.main{
+    margin-top: 2rem;
+}
+/* courses-infos */
+.courses-infos{
+    position: sticky;
+    top: 2rem;
+}
+.course-detail , .course-rate , .short-link , .main-topic , .course-products{
+    box-shadow: $box-shadow;
+    border-radius: .5rem ;
+    padding: 1.5rem;
+}
+/*
+
+===============
+
+    course-products
+
+===============
+
+*/
+
+.course-products{
+
+    &__title{
+        font-weight: $font-weight;
+        font-size: 2rem;
+    }
+    &-items{
+        margin-top: 1rem;
+        padding-right: 0;
+        .course-products-item{
+            margin-bottom: 1rem;
+        }
+    }
+    &-link{
+    
+    }
+    &__img{
+        width: 12rem; height: 7rem;
+        border-radius: .5rem;
+    }
+    &__topic{
+        margin-right: 1rem;
+        color: $dark;
+        font-size: 1.4rem;
+        &:hover{
+            color: $secondary;
+        }
+    }
+}
