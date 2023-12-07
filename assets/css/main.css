@@ -10363,3 +10363,170 @@ i {
   font-size: 1.4rem; }
   .course-products__topic:hover {
     color: #1e83f0; }
+
+/* 
+=========================
+
+    blog.html
+
+=========================    
+*/
+/* 
+=========================
+
+    course-products
+
+=========================    
+*/
+.course-products {
+  padding: 3rem;
+  overflow: hidden;
+  position: relative; }
+  .course-products__title::before {
+    position: absolute;
+    content: "";
+    width: 3rem;
+    height: 4rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 1.5rem;
+    top: 2.5rem;
+    right: -1rem;
+    background-color: #a136ed; }
+
+/* 
+  =========================
+  
+      access-courses
+  
+  =========================    
+  */
+.access-courses {
+  margin: 3rem 0; }
+  .access-courses__list {
+    margin-top: 2rem;
+    padding: 0; }
+  .access-courses__item {
+    margin-bottom: 0.75rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.3rem solid #f0f2f7;
+    transition: all 400ms; }
+  .access-courses__icon {
+    color: #7f8187;
+    margin-left: 0.5rem;
+    transition: all 400ms; }
+  .access-courses__item:hover .access-courses__link {
+    transform: translateX(-1rem); }
+  .access-courses__item:hover .access-courses__icon {
+    color: #a136ed;
+    margin-left: 0.5rem;
+    transform: translateX(-1rem); }
+
+/* 
+=========================
+
+        article
+
+=========================    
+*/
+.article {
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  padding: 3rem;
+  /* article score */
+  /* article-text-links */
+  /* article-description */
+  /* article-socials */ }
+  .article__title {
+    font-weight: bold;
+    padding-bottom: 2rem;
+    border-bottom: 0.3rem solid #f0f2f7; }
+  .article-category {
+    margin-top: 1rem;
+    padding: 0; }
+    .article-category__item {
+      margin-left: 3rem;
+      color: #7f8187; }
+    .article-category__link {
+      font-weight: bold;
+      color: #7f8187;
+      font-size: 1.4rem; }
+  .article__img {
+    width: 100%; }
+  .article-score__star {
+    margin-left: -0.5rem; }
+  .article-score__text {
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    font-weight: bold;
+    color: #7f8187; }
+  .article .paragraph {
+    margin-top: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: bold;
+    line-height: 1.75;
+    color: #464749; }
+  .article-text-links {
+    margin-top: 5rem;
+    background-color: #f0f2f7;
+    padding: 2rem 7rem;
+    border-radius: 10rem; }
+    .article-text-links__title {
+      display: inline-block;
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      /* color: $light; */ }
+    .article-text-links__url {
+      display: block;
+      color: #1e83f0;
+      transition: all 400ms; }
+      .article-text-links__url:hover {
+        color: #a136ed; }
+  .article-description {
+    margin-top: 5rem; }
+  .article-text-box {
+    margin-bottom: 2rem; }
+    .article-text-box__title {
+      font-weight: bold;
+      font-size: 3rem; }
+  .article-socials {
+    margin-top: 5rem; }
+    .article-socials__text {
+      font-weight: bold;
+      margin-left: 1rem;
+      margin-bottom: 0.75rem; }
+    .article-socials__link {
+      margin-left: 0.75rem; }
+    .article-socials__icon {
+      font-size: 2.5rem; }
+
+/* comment */
+.comment {
+  padding: 2rem;
+  margin-top: 5rem;
+  font-weight: bold; }
+  .comment .commet-text {
+    margin-top: 1rem; }
+  .comment .comment-textarea__title {
+    display: block; }
+  .comment .comment-textarea {
+    margin-top: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 1rem;
+    resize: none;
+    padding: 2rem; }
+  .comment .comment-btn {
+    margin-top: 4rem;
+    border: none;
+    outline: none;
+    background-color: #a136ed;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    transition: all 400ms; }
+    .comment .comment-btn:hover {
+      transform: scale(1.1); }
